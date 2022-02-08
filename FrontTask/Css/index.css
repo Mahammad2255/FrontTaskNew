@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    padding: 0 8rem;
+   
+    
+}
+
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    background-color: #212529;
+    color: white;
+}
+
+.right{
+ padding-top: 45px;   
+ margin-left: 850px;
+ 
+}
+
+.left{
+    margin-top: 15px;
+    padding-top: 25px;
+    font-size: 20px;
+    margin-left: 120px;
+   
+}
+
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #7c7f81;
+
+}
+
+.center-div{
+    height: 650px;
+    width: 100%;
+    background-color: #212529;
+    padding-top: 180px;
+    padding-left: 120px;
+    display: flex;
+
+    
+    
+}
+
+.center-div-left{
+    height: 350px;
+    width: 600px;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+ 
+}
+
+.center-div-right{
+    height: 380px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: #343a40;
+    margin-left: 80px;
+    margin-bottom: 1500px;
+ }
+
+.get-started-btn{
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 10px;
+    border: solid blue;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.learn-more-btn{
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid white;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+    margin-left: 25px;
+}
+
+.learn-more-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.center-right-info{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 100px;
+    color: #7c7f81;
+}
+
+.center-info{
+    height: 590px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center-info-left{
+    height: 250px;
+    width: 450px;
+    background-color: white;
+    font-size: 45px;
+    
+    padding-bottom: 50px;
+    margin-top: 65px;
+    margin-left: 115px;
+
+}
+
+.center-info-right{
+    height: 380px;
+    width: 850px;
+    background-color: white;
+   
+    margin: 15px;    
+    margin-right: 45px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#icon{
+    font-size: 45px;
+    color: blue;
+}
+
+.box{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.Tom{
+    height: 350px;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    
+    font-size: 25px;
+    color: white;
+    padding: 150px;
+ 
+}
+
+#Tom-info{
+    padding-bottom: 40px;
+    color: black;
+}
+
+.Tom-photo{
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 120px;
+    margin-right: 0;
+    margin-top: 50px;
+}
+
+.tom-info-full{
+    width: 500px;
+    height: 60px;
+    background-color: transparent;
+    margin-left: 350px;
+    display: flex;
+}
+
+.tom-photo{
+    height: 50px;
+    width: 50px;
+    background-color: #7c7f81;
+    border-radius: 30px;
+    margin-left: 60px;
+}
+
+.tom-info2{
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+.box-all{
+    padding: 60px;
+  
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-all .box-2{
+    width: 350px;
+    
+   height: 445px;
+   border-radius: 5px;
+    border: solid 1px #dee1e6;
+    margin: 15px;
+    text-align: center;
+}
+
+.box-2 .box-half{
+    width: 100%;
+    height: 160px;
+    background-color: #dee1e6;
+    text-align: center;
+    padding: 60px;
+    font-size: xx-large;
+    color: #70757e;
+}
+
+.box-2 .box-info{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.box-2 .box-header{
+    font-size: 22px;
+    
+    float: left;
+}
+
+.info{
+    width: 100%;
+    margin-top: 90px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.p-tag-info{
+    color: #70757e;
+}
+
+.blue-button-top{
+    height: 20px;
+    width: 50px;
+    background-color: blue;
+    color: white;
+    border: solid blue;
+    
+    border-radius: 15px;
+    float: left;
+}
+
+.box-info-p{
+    font-size: 17px;
+    text-align: left;
+    float: left;
+    margin-right: 35px;
+    margin-top: 15px;
+    padding-right: 5px;
+}
+
+
+.bottom{
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+
+}
+
+.bottom-info{
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    background-color: gray;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.bottom-info-p{
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.blue-info{
+    width: 100%;
+    height: 150px;
+    background-color: #1271fd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info-left{
+    height: 100px;
+    width: 500px;
+    background-color: transparent;
+    margin: 40px;
+    text-align: center;
+    color: white;
+}
+
+.info-right{
+    height: 100px;
+    width: 400px;
+    background-color: #1271fd;
+    margin: 45px;
+
+    
+}
+
+#email-input{
+    width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+
+}
+
+.signup-btn{
+    height: 35px;
+    width: 65px;
+    background-color: #1271fd;
+    border: solid white;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+footer{
+    margin-top: 75px;
+    height: 100px;
+    background-color: #212529;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer-right{
+    margin-top: 50px;
+    margin-right: 110px;
+}
+.footer-left{margin-top: 50px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width:100px) { 
+    .box{
+        width: 50%;
+    }
+
+
+}
